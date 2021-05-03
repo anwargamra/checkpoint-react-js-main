@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+.logo{
+  display: flex;
+  justify-content: right;
+}
+
+.App-header {
+  background-color: #a3b6db;
+  min-height: 100vh;
+  display: inline-flexbox;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZiLyd2-ff0mKT-SO4Cg_EUTcMHOK4x1oTeg&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: row-reverse;
+  align-items: baseline;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  color: rgb(151, 66, 66);
+}
+.img{
+  display: flex;
+  justify-content: space-around;
+
+}
+.vid{
+  justify-content: right;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
